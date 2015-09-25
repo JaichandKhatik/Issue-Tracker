@@ -18,6 +18,8 @@ Find issues by state and keyword. (This method returns up to 100 results per pag
 GET /search/issues
 
 Our query might look like this.
+
+
 "https://api.github.com/repos/" + url+ "/issues?state=all&per_page=100&page=" +pageNo
 
 
